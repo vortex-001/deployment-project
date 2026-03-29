@@ -7,7 +7,7 @@ function goToSignup() {
 
 // Handle login form submit
 document.getElementById("loginForm").addEventListener("submit", async function(e) {
-    e.preventDefault(); // ❗ prevents page reload
+    e.preventDefault(); // prevents page reload
 
     const email = document.querySelector('input[name="email"]').value.trim();
     const password = document.querySelector('input[name="password"]').value.trim();

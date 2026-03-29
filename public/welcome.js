@@ -1,7 +1,7 @@
 // Get username from localStorage
 const username = localStorage.getItem("username");
 
-// 🚨 If not logged in → redirect to login page
+//  If not logged in → redirect to login page
 if (!username) {
     window.location.href = "login.html";
 }
