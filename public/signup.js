@@ -1,3 +1,5 @@
+fetch('/api/signup')
+
 // Redirect to login page
 function goToLogin() {
     window.location.href = "login.html";
