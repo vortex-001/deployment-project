@@ -1,0 +1,73 @@
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    margin: 100px auto;
+    width: 350px;
+    padding: 30px;
+    border: 2px solid limegreen;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px limegreen;
+}
+
+h1 {
+    text-align: center;
+    color: limegreen;
+    text-shadow: 0 0 3px limegreen, 0 0 1px limegreen, 0 0 0px limegreen;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 3px limegreen, 0 0 1px limegreen, 0 0 0px limegreen; }
+    to { text-shadow: 0 0 10px #00ff66, 0 0 5px #00ff66, 0 0 0px #00ff66; }
+}
+
+label {
+    color: limegreen;
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #111;
+    color: white;
+}
+
+button {
+    background-color: limegreen;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 15px limegreen;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px; /* space above the button */
+}
+
+button:hover {
+    background-color: #00ff66;
+    box-shadow: 0 0 30px limegreen, 0 0 60px limegreen;
+    transform: scale(1.05);
+}
+
+.toggle-link {
+    color: limegreen;
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline-block;
+}
